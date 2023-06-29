@@ -17,7 +17,7 @@ module.exports = merge(baseConfig, {
   output: {
     path: resolveDir('dist'),
     filename: 'js/[name].[chunkhash:8].js', // 使用chunkhash即可
-    publicPath: '/',
+    publicPath: './',
     chunkFilename: 'js/[name].[chunkhash:8].js' // 使用chunkhash即可
   },
   cache: {

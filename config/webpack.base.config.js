@@ -259,7 +259,7 @@ module.exports = {
         __VUE_PROD_DEVTOOLS__: false, // vue3 在生产环境中禁用 devtools 支持
         'process.env': {
           NODE_ENV: JSON.stringify(process.env.NODE_ENV),
-          BASE_URL: JSON.stringify(process.env.BASE_URL || '/'),
+          BASE_URL: JSON.stringify(process.env.BASE_URL || '/webpack-vue3-demo'),
         }
       }
     ),
